@@ -4,7 +4,7 @@
 1. Включим EFI режма в VirtualBox
 1. Настрим из графический режим VirtualBox
 1. Включим дополнительный сетевой интерфейс vboxnet1
-![Скриншот выполнения](network_settings.png)
+![network_settings](https://github.com/tarrascue/grub/assets/117171128/c739af68-7ae4-4351-92a3-01f58ef22d96)
 2. Настроим доступ по ssh
 
 После развертывания ВМ определяем диски и точки монтирования:
