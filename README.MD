@@ -95,7 +95,7 @@ sde                     8:64   0    1G  0 disk
   OtusRoot   1   2   0 wz--n- <38.97g    0
 [vagrant@lvm ~]$
 ```
-## Добавить модуль в  initrd
+## initrd
 Для проведения этой части работы испоользуем ранее развернутую вручную ВМ. Скопируем фалы из методички на целевую ВМ.
 ```bash
 [dkasyan@MyX240 materials]$ scp gistfile1.sh test.sh user@192.168.57.3:/home/user/
