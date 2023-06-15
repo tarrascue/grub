@@ -23,20 +23,20 @@ sr0              11:0    1 1024M  0 rom
 ### Способ 1 **init=/bin/sh**
 Задание выполнено по методичке:
 
-![Скриншот выполнения](screenshots/p1_screen.png)
+![p1_screen](https://github.com/tarrascue/grub/assets/117171128/69e27478-f15d-4f34-a14b-d61d889cf9d7)
 
 Загрузка с обновленным паролем **не удалась**. Так как действия по изменению пароля описаные в методичке проводились во временной файловой системе.
 
 ### Способ 2 **rd.break**
 Скриншоты выполнения ниже:
 
-![Скриншот выполнения](screenshots/p2-1-screen.png)
+![p2-1-screen](https://github.com/tarrascue/grub/assets/117171128/2e3120aa-9e1f-4fd3-b556-9e7127422378)
 этап 1 Получение доступа к временной ФС.
 
-![Скриншот выполнения](screenshots/p2-2-screen.png)
+![p2-2-screen](https://github.com/tarrascue/grub/assets/117171128/555ca6ee-df46-4bd2-95a4-944cf7d7677f)
 этап 2 Измеение пароля **root**, перезагрузка системы.
 
-![Скриншот выполнения](screenshots/p2-3-screen.png)
+![p2-3-screen](https://github.com/tarrascue/grub/assets/117171128/9603fade-6902-4386-b878-b8ac7d45b6da)
 загрузка с обновленым паролем
 
 ### Способ 3. **rw init=/sysroot/bin/sh**
